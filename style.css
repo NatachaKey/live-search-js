@@ -1,0 +1,60 @@
+body{
+     background-image: linear-gradient(to right, #434343 0%, black 100%);
+     background-color:#434343;
+}
+ h1{
+     background: linear-gradient(to right, rgba(245,177,97,1), rgba(236,54,110,1) );
+     -webkit-text-fill-color:transparent;
+     -webkit-background-clip: text;
+     font-size: 48px;
+     font-family: 'Titan One', cursive;
+     text-align:center;
+}
+ .heading{
+     display: flex;
+     justify-content: center;
+}
+ .input-field{
+     display: flex;
+}
+ #search{
+     flex:1;
+     font-size: 15px;
+     padding: 18px;
+     margin-bottom:10px;
+     font-family: 'Titan One', cursive;
+     border: none;
+}
+ .container{
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     margin-top: 10px;
+}
+ .coctail{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 10px;
+}
+ p{
+     color: #fff;
+     font-family: 'Mukta', sans-serif;
+     font-weight: lighter;
+     text-align: center;
+}
+ ul{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     list-style: none;
+     padding: 0;
+}
+ li{
+     color:#fff ;
+     font-family: 'Mukta', sans-serif;
+     font-weight: lighter;
+     font-size: 15px;
+     text-align: center;
+}
+
